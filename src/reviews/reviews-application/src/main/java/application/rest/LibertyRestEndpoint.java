@@ -205,4 +205,9 @@ public class LibertyRestEndpoint extends Application {
       String jsonResStr = getJsonResponse(Integer.toString(productId), starsReviewer1, starsReviewer2);
       return Response.ok().type(MediaType.APPLICATION_JSON).entity(jsonResStr).build();
     }
+
+    public test(){
+        int testnum = 1;
+        return testnum;
+    }
 }
