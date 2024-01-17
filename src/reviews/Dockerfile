@@ -19,7 +19,7 @@ FROM gradle:4.8.1 as builder
 USER 0
 COPY . /home/gradle
 
-RUN gradle build
+# RUN gradle build
 
 # Use library image once https://github.com/OpenLiberty/ci.docker/issues/241
 # is fixed
